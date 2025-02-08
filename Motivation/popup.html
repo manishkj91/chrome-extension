@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Motivation</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .quote-container {
+      text-align: center;
+    }
+    .quote {
+      font-size: 16px;
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+    .author {
+      font-style: italic;
+      color: #666;
+    }
+    button {
+      display: block;
+      margin: 15px auto 0;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="quote-container">
+    <p class="quote" id="quote-text"></p>
+    <p class="author" id="quote-author"></p>
+    <button id="new-quote">New Quote</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
